@@ -20,6 +20,7 @@ set "App[6]=Task List"
 set "App[7]=Secure File Cipher"
 set "App[8]=Power Core Test"
 set "App[9]=All Apps"
+set "App[10]=Exit"
 
 :: Display the Menu
 set "Message="
@@ -87,6 +88,7 @@ if "%App%" EQU "Driver Scan" start cmd /K "title Driver Scan & color 05 & echo B
 if "%App%" EQU "Task List" start cmd /K "title Running Tasks - Scanning... & color 06 & tasklist -svc & echo OPERATION COMPLETED SUCCESSFULLY & color 02 & title Running Tasks - COMPLETE"
 if "%App%" EQU "Secure File Cipher" start cmd /K "title Secure File Cipher - Working & color E4 & echo ARE YOU SURE YOU WANT TO OVERWRITE ALL BLANK ON THIS DRIVE? & PAUSE & cipher /w:C & echo Verifying... & color E2 & echo OPERATION COMPLETED SUCCESSFULLY & title Secure File Cipher - COMPLETE"
 if "%App%" EQU "Power Core Test" start cmd /K "color 1F & title Power Core Test - Working & echo Searching for last sleep interruption... & echo Last Wake: & Powercfg /lastwake & echo -REPORT END- & echo Continue with power consumption diagnostics? & PAUSE & Powercfg /energy & echo -REPORT END- & echo ############# & echo Generate Battery Report? & Powercfg /batteryreport & echo -REPORT END- & echo ############### & echo OPERATION COMPLETED SUCCESSFULLY & color 12 & title Power Core Test - COMPLETE"
+if "%App%" EQU "Exit" color 74 & echo Are you sure you want to end the repair process? & PAUSE & exit
 
 if "%App%" EQU "All Apps" (
 
