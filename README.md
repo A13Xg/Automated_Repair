@@ -1,7 +1,7 @@
 # Automated_Repair #
 A collection of automated scripts for technicians to repair computers
 
-## See bottom for .zip passwords ##
+## See bottom for MD5 Hash ##
 
 How to Install:
 
@@ -55,6 +55,6 @@ Creative Commons public licenses provide a standard set of terms and conditions 
 
     Considerations for the public: By using one of our public licenses, a licensor grants the public permission to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary for any reason–for example, because of any applicable exception or limitation to copyright–then that use is not regulated by the license. Our licenses grant only permissions under copyright and certain other rights that a licensor has authority to grant. Use of the licensed material may still be restricted for other reasons, including because others have copyright or other rights in the material. A licensor may make special requests, such as asking that all changes be marked or described. Although not required by our licenses, you are encouraged to respect those requests where reasonable. More considerations for the public.
 
-### Passwords: ###
+### MD5 Hashes: ###
 
- > v0.1 'autorepair2018'
+ > v0.3 'MD5: c9c84d0c9fa4c4ec136dbdb4617dd391'
