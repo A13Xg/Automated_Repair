@@ -5,7 +5,7 @@ A collection of automated scripts for technicians to repair computers
 
 How to Install:
 
-1. Download the whole repository as a compressed *.zip* file and then run 'Deploy.bat as Administrator.
+1. Download the whole repository as a compressed *.zip* file and then run 'Deploy.bat' as Administrator.
 
 
 ***Note: This batch file will not work without Admin priveleges***
