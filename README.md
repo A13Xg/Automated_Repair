@@ -5,12 +5,10 @@ A collection of automated scripts for technicians to repair computers
 
 How to Install:
 
-1. Download the whole repository as a compressed *.zip* file and then extract the folder within as it's own directory.
-2. Run the shortcuts found in the main directory.
-3. If you want to modify some values etc. then inside the 'dependencies' folder there are the main batch files.
+1. Download the whole repository as a compressed *.zip* file and then run 'Deploy.bat as Administrator.
 
 
-***Note: due to the need for running many of these commands as admin, the use of a shortcut avoids having to right-click***
+***Note: This batch file will not work without Admin priveleges***
 
 
 
